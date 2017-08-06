@@ -10,4 +10,13 @@ html {
 body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
+  background:
+    url('')           /* image */
+    center / cover      /* position / size */
+    no-repeat           /* repeat */
+    fixed               /* attachment */
+    padding-box         /* origin */
+    content-box         /* clip */
+    rgb(247, 1, 105);            /* color */
+  color: rgb(0, 255, 3);
 }
