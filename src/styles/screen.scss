@@ -10,13 +10,12 @@ html {
 body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
-  background:
-    url('')           /* image */
-    center / cover      /* position / size */
-    no-repeat           /* repeat */
-    fixed               /* attachment */
-    padding-box         /* origin */
-    content-box         /* clip */
-    rgb(247, 1, 105);            /* color */
-  color: #00ff03;
+  background: hsl(235, 100%, 50%);
+  color: hsl(23, 100%, 50%);
+}
+
+#my-name {
+  text-transform: capitalize;
+  text-align: center;
+  padding: 50px;
 }
